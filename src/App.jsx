@@ -5,7 +5,7 @@ import { getApiConfiguration } from "./store/homeSlice";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import { Header, Footer } from "./components";
-import { Details, ErrorPage, Explore, Home, SearchResult } from './pages';
+import { Home, ErrorPage, Details, Explore, SearchResult } from './pages';
 import { getGenres } from "./store/homeSlice";
 import Spinner from "./components/spinner/Spinner";
 
